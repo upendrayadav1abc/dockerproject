@@ -3,19 +3,19 @@ services:
   movies:
     image: saiteja2644/paytmmovies:latest
     ports:
-      - "81:80"
+      - "91:80"
     deploy:
       replicas: 3
   recharge:
     image: saiteja2644/paytmrecharge:latest
     ports:
-      - "82:80"
+      - "92:80"
     deploy:
       replicas: 3
  train:
     image: saiteja2644/paytmdth:latest
     ports:
-      - "83:80"
+      - "93:80"
     deploy:
       replicas: 3
   
