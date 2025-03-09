@@ -1,15 +1,15 @@
-version: '3.8'
+version: '3.9'
 services:
   movies:
-    image: movies:v1
+    image: saiteja2644/paytmmovies:latest
     ports:
       - "81:80"
   recharge:
-    image: recharge:v1
+    image: saiteja2644/paytmrecharge:latest:v1
     ports:
       - "82:80"
  train:
-    image: dth:v1
+    image: saiteja2644/paytmdth:latest
     ports:
       - "83:80"
   
