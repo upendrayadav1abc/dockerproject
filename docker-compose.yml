@@ -5,7 +5,7 @@ services:
     ports:
       - "81:80"
   recharge:
-    image: saiteja2644/paytmrecharge:latest:v1
+    image: saiteja2644/paytmrecharge:latest
     ports:
       - "82:80"
  train:
