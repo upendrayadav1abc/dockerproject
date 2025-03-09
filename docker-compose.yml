@@ -1,4 +1,4 @@
-version: '3.9'
+version: '3.8'
 services:
   movies:
     image: saiteja2644/paytmmovies:latest
