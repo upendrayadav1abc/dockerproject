@@ -1,15 +1,15 @@
 version: '3.8'
 services:
   movies:
-    image: upendrayadav1abc/mv:v1
+    image: movies:v1
     ports:
       - "81:80"
   recharge:
-    image: upendrayadav1abc/rc:v1
+    image: recharge:v1
     ports:
       - "82:80"
  train:
-    image: upendrayadav1abc/tn:v1
+    image: dth:v1
     ports:
       - "83:80"
   
