@@ -1,21 +1,27 @@
 version: '3.8'
 services:
   movies:
-    image: saiteja2644/paytmmovies:latest
+    image: upendrayadav1abc/paytmdth:latest
     ports:
       - "91:80"
     deploy:
       replicas: 3
   recharge:
-    image: saiteja2644/paytmrecharge:latest
+    image: upendrayadav1abc/paytmrecharge:latest
     ports:
       - "92:80"
     deploy:
       replicas: 3
   dth:
-    image: saiteja2644/paytmdth:latest
+    image: upendrayadav1abc/paytmmovies:latest
     ports:
       - "93:80"
     deploy:
       replicas: 3
+  train:
+  image: upendrayadav1abc/paytmtrain:latest
+  ports:
+    - "94:80"
+  deploy:
+    replicas: 3
   
