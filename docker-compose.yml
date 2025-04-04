@@ -19,9 +19,9 @@ services:
     deploy:
       replicas: 3
   train:
-  image: upendrayadav1abc/paytmtrain:latest
-  ports:
-    - "94:80"
-  deploy:
-    replicas: 3
+    image: upendrayadav1abc/paytmtrain:latest
+    ports:
+      - "94:80"
+    deploy:
+      replicas: 3
   
